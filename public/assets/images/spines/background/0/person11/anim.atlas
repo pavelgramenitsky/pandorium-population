@@ -1,0 +1,195 @@
+
+anim.png
+size: 431,80
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+10ruka
+  rotate: 180
+  xy: 372, 34
+  size: 25, 29
+  orig: 25, 29
+  offset: 0, 0
+  index: -1
+11noga
+  rotate: true
+  xy: 408, 59
+  size: 21, 21
+  orig: 21, 21
+  offset: 0, 0
+  index: -1
+12noga
+  rotate: false
+  xy: 288, 11
+  size: 37, 40
+  orig: 39, 40
+  offset: 1, 0
+  index: -1
+1ruka
+  rotate: false
+  xy: 358, 9
+  size: 17, 34
+  orig: 17, 34
+  offset: 0, 0
+  index: -1
+2ruka
+  rotate: true
+  xy: 378, 66
+  size: 13, 27
+  orig: 13, 28
+  offset: 0, 0
+  index: -1
+3ruka
+  rotate: false
+  xy: 412, 22
+  size: 14, 16
+  orig: 14, 16
+  offset: 0, 0
+  index: -1
+4cloth
+  rotate: true
+  xy: 327, 13
+  size: 31, 29
+  orig: 31, 29
+  offset: 0, 0
+  index: -1
+4noga
+  rotate: false
+  xy: 399, 45
+  size: 20, 20
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+5noga
+  rotate: 180
+  xy: 109, 14
+  size: 52, 57
+  orig: 52, 57
+  offset: 0, 0
+  index: -1
+6body
+  rotate: false
+  xy: 80, 24
+  size: 36, 54
+  orig: 36, 54
+  offset: 0, 0
+  index: -1
+7body
+  rotate: false
+  xy: 345, 44
+  size: 31, 32
+  orig: 31, 32
+  offset: 0, 0
+  index: -1
+8ruka
+  rotate: false
+  xy: 416, 40
+  size: 11, 16
+  orig: 11, 16
+  offset: 0, 0
+  index: -1
+9ruka
+  rotate: 180
+  xy: 115, 3
+  size: 25, 17
+  orig: 25, 17
+  offset: 0, 0
+  index: -1
+hair/1/hair
+  rotate: false
+  xy: 255, 4
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+hair/3/hair
+  rotate: false
+  xy: 313, 46
+  size: 30, 32
+  orig: 30, 32
+  offset: 0, 0
+  index: -1
+hair/5/hair
+  rotate: true
+  xy: 181, 4
+  size: 33, 35
+  orig: 33, 35
+  offset: 0, 0
+  index: -1
+head/1/head1-1
+  rotate: false
+  xy: 229, 39
+  size: 28, 37
+  orig: 29, 37
+  offset: 0, 0
+  index: -1
+head/1/head1-2
+  rotate: false
+  xy: 259, 41
+  size: 28, 37
+  orig: 29, 37
+  offset: 0, 0
+  index: -1
+head/3/head1-1
+  rotate: true
+  xy: 142, 5
+  size: 32, 37
+  orig: 32, 37
+  offset: 0, 0
+  index: -1
+head/3/head1-2
+  rotate: false
+  xy: 163, 39
+  size: 32, 37
+  orig: 32, 37
+  offset: 0, 0
+  index: -1
+head/5/head1-1
+  rotate: false
+  xy: 197, 39
+  size: 30, 35
+  orig: 30, 35
+  offset: 0, 0
+  index: -1
+head/5/head1-2
+  rotate: true
+  xy: 218, 7
+  size: 30, 35
+  orig: 30, 35
+  offset: 0, 0
+  index: -1
+ruka-nz1
+  rotate: false
+  xy: 396, 23
+  size: 14, 20
+  orig: 14, 20
+  offset: 0, 0
+  index: -1
+ruka-nz2
+  rotate: false
+  xy: 80, 4
+  size: 18, 18
+  orig: 19, 18
+  offset: 1, 0
+  index: -1
+ruka-nz3
+  rotate: false
+  xy: 377, 12
+  size: 17, 20
+  orig: 17, 20
+  offset: 0, 0
+  index: -1
+ruka-nz4
+  rotate: true
+  xy: 396, 7
+  size: 14, 19
+  orig: 14, 19
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 7
+  size: 76, 71
+  orig: 78, 72
+  offset: 1, 0
+  index: -1

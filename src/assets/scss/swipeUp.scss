@@ -1,0 +1,82 @@
+/* Swipe up */
+#swipeUp {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: calc(100% + 200px);
+  width: 100%;
+  position: relative;
+  z-index: 9997;
+}
+
+#swipeUp .swipeUpInner {
+  font-size: 24px;
+  padding: 100px 0 0 0;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Orientation */
+#orientation {
+  background: #000;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  justify-content: center;
+  z-index: 9998;
+}
+
+#orientation .orientationInner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#orientation .orientationPhone {
+  height: 140px;
+  width: 70px;
+  border: 4px solid white;
+  border-radius: 10px;
+  animation: rotate 1.5s ease-in-out infinite alternate;
+}
+
+#orientation .orientationPhoneText {
+  color: white;
+  font-size: 1em;
+  margin-top: 30px;
+  font-family: "GermaniaOne-Regular";
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-90deg);
+  }
+  100% {
+    transform: rotate(-90deg);
+  }
+}
+
+@media (orientation: landscape) {
+  #orientation {
+    display: none;
+  }
+
+  #swipeUp {
+    /* display: block; */
+  }
+}
+
+@media (orientation: portrait) {
+  #orientation {
+    display: flex;
+  }
+
+  #swipeUp {
+    /* display: none; */
+  }
+}

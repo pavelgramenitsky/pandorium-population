@@ -1,0 +1,214 @@
+@media (orientation: landscape) {
+  #mobileView {
+    .viewContainer {
+      width: 1000px;
+      height: calc(100% - 20px);
+    }
+
+    #menuTabAutoplay {
+      width: 1000px;
+    }
+
+    #menuTabAutoplay .autoplayLineTitle {
+      font-size: 30px;
+    }
+
+    #menuTabAutoplay .menuSlider {
+      max-width: 300px;
+    }
+
+    #menuTabAutoplay .autoplayLine {
+      margin: 0 0 50px 0;
+    }
+
+    #symbolsValues {
+      margin: 30px 100px;
+    }
+
+    .autoplayBtnWrapper {
+      width: 90px;
+      height: 90px;
+      position: absolute;
+      top: -350px;
+      left: 5%;
+    }
+
+    /* UI panel */
+    #uiPanel {
+      font-size: 24px;
+      width: 100%;
+      height: 110px;
+    }
+
+    #uiPanel #balanceView {
+      left: 22%;
+    }
+
+    #uiPanel .betView {
+      left: 22%;
+    }
+
+    #uiPanel .betBtnWrapper {
+      top: -230px;
+      left: 5%;
+    }
+
+    #uiPanel .volumeWrapper {
+      display: none;
+    }
+
+    #uiPanel .menuBtnWrapper {
+      left: 55px;
+    }
+
+    #uiPanel .minusBtnWrapper,
+    #uiPanel .plusBtnWrapper {
+      display: none;
+    }
+
+    #uiPanel .spinBtnWrapper {
+      top: -340px;
+      right: 3%;
+    }
+
+    &.handModeLeft #uiPanel .betBtnWrapper {
+      right: initial;
+      left: initial;
+      right: 5%;
+    }
+
+    &.handModeLeft #uiPanel .autoplayBtnWrapper {
+      right: initial;
+      left: initial;
+      right: 5%;
+    }
+
+    &.handModeLeft #uiPanel .spinBtnWrapper {
+      right: initial;
+      left: 3%;
+    }
+
+    #uiPanel .rulesWrapper {
+      left: initial;
+      right: 55px;
+    }
+
+    .menuContentTabInnerPaytables img {
+      width: 1000px;
+    }
+  }
+}
+
+@media (orientation: portrait) {
+  #mobileView {
+    .viewContainer {
+      width: calc(100% - 20px);
+      height: 1000px;
+    }
+
+    #menuTabAutoplay {
+      width: calc(100% - 20px);
+    }
+
+    #menuTabAutoplay .autoplayLine {
+      display: block;
+    }
+
+    #menuTabAutoplay .autoplayLineTitle {
+      text-align: center;
+      margin: 0 0 60px 0;
+    }
+
+    #menuTabAutoplay .menuSwitch {
+      width: auto;
+      justify-content: center;
+    }
+
+    .autoplayBtnWrapper {
+      width: 90px;
+      height: 90px;
+      position: absolute;
+      top: -315px;
+      right: 25%;
+      transform: translate(50%, 0);
+    }
+
+    .modal {
+      min-width: auto;
+      width: 100%;
+    }
+
+    #symbolsValues {
+      margin: 30px 0px;
+    }
+
+    .symbolImageWinlines {
+      width: 100%;
+    }
+
+    .paylinesReels {
+      width: 80%;
+    }
+
+    /* UI panel */
+    #uiPanel {
+      font-size: 24px;
+      width: 100%;
+      height: 110px;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+
+    #uiPanel #balanceView {
+      left: 50%;
+    }
+
+    #uiPanel .betView {
+      top: 65px;
+      left: 50%;
+    }
+
+    #uiPanel .betBtnWrapper {
+      top: -315px;
+      right: 75%;
+      transform: translate(50%, 0);
+    }
+
+    #uiPanel .autoplayBtnWrapperMobile {
+      width: 90px;
+      height: 90px;
+      top: -315px;
+      right: 25%;
+      position: absolute;
+      transform: translate(50%, 0);
+    }
+
+    #uiPanel .spinBtnWrapper {
+      top: -360px;
+      right: 50%;
+      transform: translate(50%, 0);
+    }
+
+    #menuTabAutoplay .menuSlider {
+      width: auto;
+    }
+
+    #uiPanel .menuBtnWrapper {
+      left: 35px;
+    }
+
+    #uiPanel .rulesWrapper {
+      left: initial;
+      right: 35px;
+    }
+
+    #uiPanel .volumeWrapper,
+    #uiPanel .minusBtnWrapper,
+    #uiPanel .plusBtnWrapper {
+      display: none;
+    }
+
+    .menuContentTabInnerPaytables img {
+      width: 100%;
+    }
+  }
+}

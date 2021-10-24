@@ -1,0 +1,97 @@
+
+anim.png
+size: 275,103
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1noga
+  rotate: 180
+  xy: 143, 21
+  size: 65, 48
+  orig: 65, 48
+  offset: 0, 0
+  index: -1
+2noga
+  rotate: false
+  xy: 203, 4
+  size: 22, 17
+  orig: 22, 17
+  offset: 0, 0
+  index: -1
+3ruka
+  rotate: false
+  xy: 255, 29
+  size: 17, 56
+  orig: 17, 56
+  offset: 0, 0
+  index: -1
+4ruka
+  rotate: false
+  xy: 240, 10
+  size: 20, 17
+  orig: 20, 17
+  offset: 0, 0
+  index: -1
+5body
+  rotate: true
+  xy: 178, 12
+  size: 31, 30
+  orig: 31, 30
+  offset: 0, 0
+  index: -1
+6body
+  rotate: false
+  xy: 99, 35
+  size: 38, 67
+  orig: 38, 67
+  offset: 0, 0
+  index: -1
+7noga
+  rotate: 180
+  xy: 125, 25
+  size: 58, 77
+  orig: 58, 77
+  offset: 0, 0
+  index: -1
+8ruka
+  rotate: 270
+  xy: 99, 5
+  size: 24, 47
+  orig: 24, 47
+  offset: 0, 0
+  index: -1
+9ruka
+  rotate: false
+  xy: 157, 6
+  size: 19, 16
+  orig: 19, 16
+  offset: 0, 0
+  index: -1
+hair/1/hair
+  rotate: false
+  xy: 224, 62
+  size: 31, 33
+  orig: 31, 33
+  offset: 0, 0
+  index: -1
+head/1/head1-1
+  rotate: true
+  xy: 185, 71
+  size: 28, 37
+  orig: 29, 37
+  offset: 0, 0
+  index: -1
+head/1/head1-2
+  rotate: false
+  xy: 210, 23
+  size: 28, 37
+  orig: 29, 37
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 2, 19
+  size: 95, 82
+  orig: 95, 82
+  offset: 0, 0
+  index: -1

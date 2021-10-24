@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "FredokaOne-Regular";
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+}
+
+input,
+button {
+  font-family: "FredokaOne-Regular";
+  background-color: initial;
+}
+
+button {
+  color: #fff;
+  touch-action: manipulation;
+  cursor: pointer;
+  border: none;
+}
+
+button:disabled {
+  cursor: default !important;
+  opacity: 0.5;
+}
+
+.icon {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#viewportWrapper {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+#viewport {
+  transform-origin: 0px 0px;
+  position: absolute;
+}
+
+#gameWrapper {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+canvas {
+  vertical-align: middle;
+  transform: translateZ(0);
+}
+
+/* Modals */
+#modalContainer {
+  font-size: 32px;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(1, 0, 0, 0.92);
+  justify-content: center;
+  align-items: center;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.modal {
+  text-align: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.modalHeading {
+  color: $color0;
+}
+
+.modalContent {
+  margin: 50px 0;
+}
+
+.modalButton {
+  font-size: 32px;
+  width: 250px;
+  text-align: center;
+  padding: 15px;
+  color: $color0;
+  border: 3px solid $color0;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+#mobileView {
+  #modalContainer {
+    font-size: 21px;
+  }
+
+  .modalButton {
+    font-size: 24px;
+  }
+}
+
+/* Scroll styles */
+::-webkit-scrollbar {
+  width: 18px;
+  padding: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $color0;
+  border-radius: 10px;
+}
+
+// ::-webkit-scrollbar-track {
+// background: #562b0b;
+// border-radius: 10px;
+// }
