@@ -1,8 +1,8 @@
-export const BACK_INDEX = 0//Math.floor(Math.random() * 6)
+export const BACK_INDEX = 3//Math.floor(Math.random() * 6)
 export default () => {
   return [
     // background 0
-    { name: "background", path: `assets/images/background0.jpg` },
+    { name: "background", path: `assets/images/background${BACK_INDEX}.jpg` },
     
     // back animation
     { name: "person0", path: `assets/images/spines/background/${BACK_INDEX}/person0/anim.json` },

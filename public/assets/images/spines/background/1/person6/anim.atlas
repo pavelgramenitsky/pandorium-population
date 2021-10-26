@@ -1,0 +1,139 @@
+
+anim.png
+size: 327,270
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+girls/0
+  rotate: false
+  xy: 147, 35
+  size: 45, 58
+  orig: 45, 58
+  offset: 0, 0
+  index: -1
+girls/0-1
+  rotate: false
+  xy: 247, 107
+  size: 45, 58
+  orig: 45, 58
+  offset: 0, 0
+  index: -1
+girls/10ruka
+  rotate: false
+  xy: 292, 132
+  size: 30, 49
+  orig: 32, 51
+  offset: 1, 1
+  index: -1
+girls/11noga
+  rotate: false
+  xy: 185, 98
+  size: 62, 67
+  orig: 62, 67
+  offset: 0, 0
+  index: -1
+girls/12noga
+  rotate: false
+  xy: 64, 44
+  size: 83, 49
+  orig: 85, 51
+  offset: 1, 1
+  index: -1
+girls/13noga
+  rotate: false
+  xy: 251, 51
+  size: 67, 55
+  orig: 67, 55
+  offset: 0, 0
+  index: -1
+girls/14noga
+  rotate: false
+  xy: 0, 13
+  size: 64, 80
+  orig: 64, 80
+  offset: 0, 0
+  index: -1
+girls/1alko
+  rotate: false
+  xy: 307, 227
+  size: 18, 42
+  orig: 20, 44
+  offset: 1, 1
+  index: -1
+girls/2ruka
+  rotate: false
+  xy: 307, 198
+  size: 18, 28
+  orig: 20, 30
+  offset: 1, 1
+  index: -1
+girls/3ruka
+  rotate: false
+  xy: 107, 8
+  size: 32, 35
+  orig: 34, 38
+  offset: 1, 1
+  index: -1
+girls/4tits
+  rotate: false
+  xy: 139, 1
+  size: 41, 33
+  orig: 41, 33
+  offset: 0, 0
+  index: -1
+girls/5ruka
+  rotate: false
+  xy: 64, 7
+  size: 43, 36
+  orig: 43, 36
+  offset: 0, 0
+  index: -1
+girls/6ruka
+  rotate: false
+  xy: 292, 109
+  size: 21, 22
+  orig: 23, 24
+  offset: 1, 1
+  index: -1
+girls/7ruka
+  rotate: false
+  xy: 307, 29
+  size: 20, 21
+  orig: 22, 23
+  offset: 1, 1
+  index: -1
+girls/8body
+  rotate: false
+  xy: 258, 182
+  size: 49, 87
+  orig: 49, 87
+  offset: 0, 0
+  index: -1
+girls/9body
+  rotate: false
+  xy: 251, 1
+  size: 56, 49
+  orig: 58, 51
+  offset: 1, 1
+  index: -1
+girls/hair1-1
+  rotate: false
+  xy: 192, 30
+  size: 59, 67
+  orig: 59, 67
+  offset: 0, 0
+  index: -1
+girls/hair1-2
+  rotate: false
+  xy: 185, 166
+  size: 73, 103
+  orig: 73, 103
+  offset: 0, 0
+  index: -1
+girls/sh
+  rotate: false
+  xy: 0, 94
+  size: 185, 175
+  orig: 185, 175
+  offset: 0, 0
+  index: -1

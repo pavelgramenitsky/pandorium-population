@@ -1,0 +1,68 @@
+anim.png
+size: 183,79
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1ruka
+  rotate: 270
+  xy: 23, 4
+  size: 23, 34
+  orig: 23, 34
+  offset: 0, 0
+  index: -1
+2body
+  rotate: false
+  xy: 2, 19
+  size: 43, 59
+  orig: 43, 61
+  offset: 0, 1
+  index: -1
+3nogi
+  rotate: true
+  xy: 44, 18
+  size: 60, 41
+  orig: 60, 41
+  offset: 0, 0
+  index: -1
+4ruka
+  rotate: false
+  xy: 58, 4
+  size: 19, 13
+  orig: 19, 13
+  offset: 0, 0
+  index: -1
+hair/2/hair
+  rotate: false
+  xy: 149, 42
+  size: 30, 31
+  orig: 30, 31
+  offset: 0, 0
+  index: -1
+hair/4/hair
+  rotate: false
+  xy: 154, 9
+  size: 26, 31
+  orig: 26, 31
+  offset: 0, 0
+  index: -1
+head/2/head2
+  rotate: true
+  xy: 115, 10
+  size: 30, 37
+  orig: 30, 37
+  offset: 0, 0
+  index: -1
+head/4/head1
+  rotate: false
+  xy: 115, 42
+  size: 32, 35
+  orig: 32, 35
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 87, 17
+  size: 60, 26
+  orig: 61, 26
+  offset: 0, 0
+  index: -1

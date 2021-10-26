@@ -1,0 +1,104 @@
+
+anim.png
+size: 336,252
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1ruka
+  rotate: false
+  xy: 167, 10
+  size: 40, 21
+  orig: 40, 21
+  offset: 0, 0
+  index: -1
+2ruka
+  rotate: true
+  xy: 122, 6
+  size: 26, 44
+  orig: 26, 44
+  offset: 0, 0
+  index: -1
+3ruka
+  rotate: false
+  xy: 213, 16
+  size: 25, 40
+  orig: 25, 40
+  offset: 0, 0
+  index: -1
+4body
+  rotate: false
+  xy: 221, 20
+  size: 76, 140
+  orig: 76, 140
+  offset: 0, 0
+  index: -1
+HairB/1/hair
+  rotate: true
+  xy: 298, 38
+  size: 35, 33
+  orig: 35, 34
+  offset: 0, 1
+  index: -1
+HeadB/1/head t1
+  rotate: false
+  xy: 305, 161
+  size: 29, 39
+  orig: 29, 39
+  offset: 0, 0
+  index: -1
+HeadB/1/head t2
+  rotate: false
+  xy: 305, 202
+  size: 29, 39
+  orig: 29, 39
+  offset: 0, 0
+  index: -1
+HeadB/1/head t3
+  rotate: true
+  xy: 2, 2
+  size: 29, 38
+  orig: 29, 38
+  offset: 0, 0
+  index: -1
+HeadB/1/head1-1
+  rotate: true
+  xy: 42, 2
+  size: 29, 38
+  orig: 29, 38
+  offset: 0, 0
+  index: -1
+HeadB/1/head1-2
+  rotate: true
+  xy: 82, 2
+  size: 29, 38
+  orig: 29, 38
+  offset: 0, 0
+  index: -1
+sh1
+  rotate: true
+  xy: 269, 75
+  size: 84, 51
+  orig: 88, 53
+  offset: 1, 1
+  index: -1
+stol1
+  rotate: false
+  xy: 2, 33
+  size: 217, 217
+  orig: 217, 217
+  offset: 0, 0
+  index: -1
+stol2
+  rotate: false
+  xy: 221, 161
+  size: 82, 89
+  orig: 82, 89
+  offset: 0, 0
+  index: -1
+stol3
+  rotate: false
+  xy: 290, 9
+  size: 41, 27
+  orig: 43, 29
+  offset: 0, 1
+  index: -1

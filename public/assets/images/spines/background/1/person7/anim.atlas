@@ -1,0 +1,125 @@
+
+anim.png
+size: 220,451
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+girls/0
+  rotate: false
+  xy: 175, 138
+  size: 45, 58
+  orig: 45, 58
+  offset: 0, 0
+  index: -1
+girls/0-1
+  rotate: false
+  xy: 175, 79
+  size: 45, 58
+  orig: 45, 58
+  offset: 0, 0
+  index: -1
+girls/10noga
+  rotate: false
+  xy: 59, 52
+  size: 66, 40
+  orig: 66, 40
+  offset: 0, 0
+  index: -1
+girls/11ruka
+  rotate: false
+  xy: 166, 1
+  size: 48, 34
+  orig: 50, 36
+  offset: 1, 1
+  index: -1
+girls/1ruka
+  rotate: false
+  xy: 0, 20
+  size: 58, 22
+  orig: 58, 22
+  offset: 0, 0
+  index: -1
+girls/2ruka1
+  rotate: false
+  xy: 118, 7
+  size: 48, 36
+  orig: 48, 36
+  offset: 0, 0
+  index: -1
+girls/3tits
+  rotate: false
+  xy: 175, 36
+  size: 45, 42
+  orig: 45, 44
+  offset: 0, 2
+  index: -1
+girls/4ruka
+  rotate: false
+  xy: 0, 1
+  size: 45, 18
+  orig: 47, 21
+  offset: 1, 1
+  index: -1
+girls/5cloth
+  rotate: false
+  xy: 184, 267
+  size: 33, 54
+  orig: 33, 54
+  offset: 0, 0
+  index: -1
+girls/6noga
+  rotate: false
+  xy: 125, 44
+  size: 50, 48
+  orig: 50, 48
+  offset: 0, 0
+  index: -1
+girls/7noga
+  rotate: false
+  xy: 59, 10
+  size: 59, 41
+  orig: 59, 41
+  offset: 0, 0
+  index: -1
+girls/8body1
+  rotate: false
+  xy: 0, 111
+  size: 102, 85
+  orig: 102, 85
+  offset: 0, 0
+  index: -1
+girls/9ruka
+  rotate: false
+  xy: 184, 240
+  size: 17, 26
+  orig: 19, 28
+  offset: 1, 1
+  index: -1
+girls/hair1-1
+  rotate: false
+  xy: 0, 43
+  size: 59, 67
+  orig: 59, 67
+  offset: 0, 0
+  index: -1
+girls/hair1-2
+  rotate: false
+  xy: 102, 93
+  size: 73, 103
+  orig: 73, 103
+  offset: 0, 0
+  index: -1
+girls/sh1
+  rotate: false
+  xy: 0, 322
+  size: 216, 128
+  orig: 216, 128
+  offset: 0, 0
+  index: -1
+girls/sh2
+  rotate: false
+  xy: 0, 197
+  size: 184, 124
+  orig: 216, 128
+  offset: 2, 2
+  index: -1
