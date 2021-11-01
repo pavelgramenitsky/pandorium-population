@@ -1,0 +1,34 @@
+
+anim.png
+size: 499,119
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+stol
+  rotate: false
+  xy: 215, 14
+  size: 179, 103
+  orig: 179, 103
+  offset: 0, 0
+  index: -1
+stol-sh
+  rotate: false
+  xy: 2, 2
+  size: 211, 115
+  orig: 212, 116
+  offset: 0, 1
+  index: -1
+stul1
+  rotate: true
+  xy: 396, 38
+  size: 79, 52
+  orig: 79, 53
+  offset: 0, 0
+  index: -1
+stul2
+  rotate: true
+  xy: 450, 38
+  size: 79, 47
+  orig: 79, 47
+  offset: 0, 0
+  index: -1

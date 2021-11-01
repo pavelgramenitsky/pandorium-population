@@ -1,6 +1,5 @@
 import SpineController from "../../../../helpers/spineController";
-import { Container, Sprite } from "pixi.js";
-import { BACK_INDEX } from "../../../../assets/assetsConfig";
+import { Container, Sprite, Loader } from "pixi.js";
 import { 
     PositionsBack0,
     PositionsBack1,
@@ -8,6 +7,7 @@ import {
     PositionsBack3,
     PositionsBack4,
     PositionsBack5 } from "./BackgroundSpinePositions";
+import gsap from "gsap/all";
 
 export default class BackgroundPage extends Container {
     private _backImage: Sprite;
@@ -19,36 +19,65 @@ export default class BackgroundPage extends Container {
     private _positions4 = PositionsBack4;
     private _positions5 = PositionsBack5;
     private _currentSpine: Container;
+    private _loader: Loader;
+    private _loaderIndex = 0;
+    private _pageIndex = 0;
     constructor() {
         super();
 
-        this._backImage = Sprite.from('background');
+    }
+
+    show() {
+        this._loaderIndex++;
+        this._pageIndex = Math.floor(Math.random() * 6);
+        this._loader = new Loader();
+        this._loader.add(`background${this._pageIndex}`, `assets/images/background${this._pageIndex}.jpg`);
+        for (let i = 0; i < 19; i++) {
+            this._loader.add(`person${i}_${this._loaderIndex}`, `assets/images/spines/background/${this._pageIndex}/person${i}/anim.json`)
+        }
+        this._loader.load();
+
+        this._loader.onComplete.add((loader) => {
+            
+            window.methods.preloader.hide()
+            window.resources = {
+                ...window.resources,
+                ...loader.resources
+            };
+            this.generatePage();
+            this.emit('Page.Load');
+        })
+    }
+
+    private generatePage() {
+        
+        this._backImage = Sprite.from(`background${this._pageIndex}`);
         this.addChild(this._backImage);
         
-        for (let i = 0; i < this[`_positions${BACK_INDEX}`].length; i++) {
+        for (let i = 0; i < this[`_positions${this._pageIndex}`].length; i++) {
             const cont = new Container();
-            cont.position.set(this[`_positions${BACK_INDEX}`][i].x, this[`_positions${BACK_INDEX}`][i].y)
+            cont.position.set(this[`_positions${this._pageIndex}`][i].x, this[`_positions${this._pageIndex}`][i].y)
             this.addChild(cont);
-
-            const anim = new SpineController(cont, `person${i}`, { scaleX: this[`_positions${BACK_INDEX}`][i].sc});
+            const anim = new SpineController(cont, `person${i}_${this._loaderIndex}`, { scaleX: this[`_positions${this._pageIndex}`][i].sc});
             anim.spineRun(0, { loop: true });
 
             this._spinesControllers.push({ container: cont, controller: anim});
             
             this._currentSpine = cont;
         }
-        
-        document.addEventListener('keydown', this.onKeyDown.bind(this));
     }
 
-    onKeyDown(e) {
-        const inc = 10;
-        if (e.keyCode === 65) this._currentSpine.x -= inc;
-        if (e.keyCode === 87) this._currentSpine.y -= inc;
-        if (e.keyCode === 68) this._currentSpine.x += inc;
-        if (e.keyCode === 83) this._currentSpine.y += inc;
+    destroy() {
+        this.removeChild(this._backImage);
+        this._backImage.destroy();
 
-        console.log(`{ x: ${this._currentSpine.x}, y: ${this._currentSpine.y} }`);
-       
+        for (let i = 0; i < this._spinesControllers.length; i++) {
+            this.removeChild(this._spinesControllers[i].container);
+            this._spinesControllers[i].controller.destroy();
+        }
+
+        this._loader.destroy();
     }
+
+    
 }

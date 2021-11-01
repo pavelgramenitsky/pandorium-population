@@ -1,0 +1,39 @@
+{"frames": {
+
+"button_paly_f_0.png":
+{
+	"frame": {"x":1,"y":1,"w":110,"h":109},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":110,"h":109},
+	"sourceSize": {"w":110,"h":109}
+},
+"button_paly_f_1.png":
+{
+	"frame": {"x":198,"y":1,"w":80,"h":79},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":16,"w":80,"h":79},
+	"sourceSize": {"w":110,"h":109}
+},
+"button_paly_f_2.png":
+{
+	"frame": {"x":113,"y":1,"w":83,"h":87},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":9,"w":83,"h":87},
+	"sourceSize": {"w":110,"h":109}
+}},
+"animations": {
+	"button_paly_f": ["button_paly_f_0.png","button_paly_f_1.png","button_paly_f_2.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "main_btns.png",
+	"format": "RGBA8888",
+	"size": {"w":278,"h":111},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:4bddb3716349d017c31780a2bbc93d54:97493febcc7a8ce0340fa58a0dedc723:682e0d30b8c6e3655a9b839eee162268$"
+}
+}

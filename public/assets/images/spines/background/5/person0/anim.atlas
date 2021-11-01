@@ -1,0 +1,62 @@
+
+anim.png
+size: 128,487
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+drone/aud1
+  rotate: false
+  xy: 0, 162
+  size: 92, 100
+  orig: 92, 100
+  offset: 0, 0
+  index: -1
+drone/aud2
+  rotate: false
+  xy: 0, 1
+  size: 77, 81
+  orig: 81, 84
+  offset: 2, 2
+  index: -1
+drone/emission
+  rotate: false
+  xy: 100, 338
+  size: 20, 25
+  orig: 20, 25
+  offset: 0, 0
+  index: -1
+drone/note1
+  rotate: false
+  xy: 77, 13
+  size: 51, 69
+  orig: 53, 71
+  offset: 1, 1
+  index: -1
+drone/note2
+  rotate: false
+  xy: 92, 197
+  size: 35, 65
+  orig: 37, 67
+  offset: 1, 1
+  index: -1
+drone/sh1
+  rotate: false
+  xy: 0, 83
+  size: 115, 78
+  orig: 146, 88
+  offset: 13, 5
+  index: -1
+drone/ss
+  rotate: false
+  xy: 0, 364
+  size: 122, 122
+  orig: 164, 154
+  offset: 21, 17
+  index: -1
+drone/ss1
+  rotate: false
+  xy: 0, 263
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1

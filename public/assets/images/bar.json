@@ -1,0 +1,92 @@
+{"frames": {
+
+"bar_back_panel.png":
+{
+	"frame": {"x":206,"y":1,"w":258,"h":122},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":258,"h":122},
+	"sourceSize": {"w":258,"h":122}
+},
+"bar_back_panel_avatar_circle.png":
+{
+	"frame": {"x":311,"y":125,"w":118,"h":118},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":11,"w":118,"h":118},
+	"sourceSize": {"w":140,"h":140}
+},
+"bar_down_panel.png":
+{
+	"frame": {"x":1,"y":171,"w":308,"h":48},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":308,"h":48},
+	"sourceSize": {"w":308,"h":48}
+},
+"bar_icon_back.png":
+{
+	"frame": {"x":1,"y":1,"w":168,"h":61},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":168,"h":61},
+	"sourceSize": {"w":168,"h":122}
+},
+"bar_icon_leaves.png":
+{
+	"frame": {"x":1,"y":221,"w":34,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":34},
+	"sourceSize": {"w":34,"h":34}
+},
+"bar_icon_minerals.png":
+{
+	"frame": {"x":37,"y":221,"w":34,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":34},
+	"sourceSize": {"w":34,"h":34}
+},
+"bar_icon_money.png":
+{
+	"frame": {"x":73,"y":221,"w":34,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":34},
+	"sourceSize": {"w":34,"h":34}
+},
+"bar_icon_people.png":
+{
+	"frame": {"x":109,"y":221,"w":34,"h":34},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":34,"h":34},
+	"sourceSize": {"w":34,"h":34}
+},
+"bar_line.png":
+{
+	"frame": {"x":206,"y":125,"w":92,"h":39},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":23,"w":92,"h":39},
+	"sourceSize": {"w":92,"h":122}
+},
+"bar_user_base.png":
+{
+	"frame": {"x":64,"y":1,"w":140,"h":140},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":140,"h":140},
+	"sourceSize": {"w":140,"h":140}
+}},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "bar.png",
+	"format": "RGBA8888",
+	"size": {"w":465,"h":256},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:9eddbf1de40957e46e7270ca7e4bbc77:fcac22a6792f556c7d6bd254e79e1d39:ff76ebff2c93bece2e604a09e76f3d05$"
+}
+}

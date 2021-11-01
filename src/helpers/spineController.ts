@@ -28,7 +28,7 @@ class SpineController {
 
   constructor(parentContainer: PIXI.Container, spineName: string, options?: IOptions) {
     if (!window.resources[spineName]) {
-      console.warn(`The name "${window.resources[spineName]}" does not exist`);
+      console.warn(`The name "${window.resources[spineName]}" does not exist`, spineName);
       return;
     }
 
@@ -127,7 +127,11 @@ class SpineController {
   }
 
   destroy() {
-    gsapTimer(() => this.spine.destroy(), 0.01);
+    gsapTimer(
+      () =>  {
+        this.spine.destroy();
+      }
+      , 0.01);
   }
 }
 

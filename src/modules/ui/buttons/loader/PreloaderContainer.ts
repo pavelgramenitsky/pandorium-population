@@ -1,6 +1,7 @@
 import config from "../../../../config";
 import gsap from "gsap";
 import { Container, Sprite, Text, TextStyle, Ticker } from "pixi.js";
+import { DropShadowFilter } from "@pixi/filter-drop-shadow";
 export default class PreloaderContainer extends Container {
     private _ticker: Ticker;
     private _dt: number;
@@ -10,6 +11,8 @@ export default class PreloaderContainer extends Container {
     constructor() {
         super();
 
+        this.filters = [new DropShadowFilter()];
+        
         this._ticker = new Ticker()
         this._dt = 0
        
@@ -43,6 +46,7 @@ export default class PreloaderContainer extends Container {
     }
 
     show() {
+        gsap.killTweensOf(this);
         this.alpha = 1
         this.percent = 0
         this.visible = true
