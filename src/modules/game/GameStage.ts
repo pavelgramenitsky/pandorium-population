@@ -1,6 +1,5 @@
 import gsap from "gsap";
 import { Container } from "pixi.js";
-import GameModel from "../../model/GameModel";
 import GameBar from "./bar/GameBar";
 import { PageNames } from "./pages/data/GamePageNames";
 import GameScenePage from "./pages/gamescene/GameScenePage";
@@ -12,14 +11,13 @@ export default class GameStage extends Container {
         super();
         
         window.methods.sounds.play('snd_music');
-        window.methods.gameModel = new GameModel();
         
         window.methods.gameBar = new GameBar();
         window.app.stage.addChild(window.methods.gameBar);
         
         window.methods.gameBar.y = -150;
         
-        this.showPage(PageNames.MAIN);
+        this.showPage(PageNames.GAME_SCENE);
     }
 
     showPage(pageName: string) {

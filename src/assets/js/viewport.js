@@ -36,14 +36,13 @@ const resizeViewport = (config, deviceType) => {
     currentWidth = config.WIDTH;
     currentHeight = config.HEIGHT;
   }
-
+  
   const scaleWidth = window.innerWidth / currentWidth;
   const scaleHeight = window.innerHeight / currentHeight;
   const top = (window.innerHeight - currentHeight * scaleWidth) / 2;
   const left = (window.innerWidth - currentWidth * scaleHeight) / 2;
 
   const transformScale = scaleHeight > scaleWidth ? scaleWidth.toFixed(3) : scaleHeight.toFixed(3);
-
   window.app.renderer.resize(currentWidth, currentHeight);
   viewport.style = `
     transform: scale(${transformScale});
@@ -51,7 +50,6 @@ const resizeViewport = (config, deviceType) => {
     left: ${left <= 0 ? 0 : left}px;
     display: block;
   `;
-
   return { currentWidth, currentHeight };
 };
 

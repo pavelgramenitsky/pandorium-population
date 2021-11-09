@@ -1058,11 +1058,11 @@
 },
 "p_ev_b_hair_k0_8.png":
 {
-	"frame": {"x":280,"y":989,"w":49,"h":43},
+	"frame": {"x":309,"y":211,"w":3,"h":3},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":31,"y":18,"w":49,"h":43},
-	"sourceSize": {"w":110,"h":115}
+	"spriteSourceSize": {"x":0,"y":0,"w":3,"h":3},
+	"sourceSize": {"w":109,"h":109}
 },
 "p_ev_b_hair_k0_9.png":
 {
@@ -1074,15 +1074,15 @@
 },
 "p_ev_b_hair_k0_10.png":
 {
-	"frame": {"x":349,"y":895,"w":44,"h":47},
+	"frame": {"x":280,"y":989,"w":49,"h":43},
 	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":33,"y":18,"w":44,"h":47},
+	"spriteSourceSize": {"x":31,"y":18,"w":49,"h":43},
 	"sourceSize": {"w":110,"h":115}
 },
 "p_ev_b_hair_k0_11.png":
 {
-	"frame": {"x":360,"y":788,"w":44,"h":47},
+	"frame": {"x":349,"y":895,"w":44,"h":47},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":33,"y":18,"w":44,"h":47},
@@ -1090,15 +1090,15 @@
 },
 "p_ev_b_hair_k0_12.png":
 {
-	"frame": {"x":327,"y":1131,"w":39,"h":42},
-	"rotated": true,
+	"frame": {"x":360,"y":788,"w":44,"h":47},
+	"rotated": false,
 	"trimmed": true,
-	"spriteSourceSize": {"x":35,"y":23,"w":39,"h":42},
+	"spriteSourceSize": {"x":33,"y":18,"w":44,"h":47},
 	"sourceSize": {"w":110,"h":115}
 },
 "p_ev_b_hair_k0_13.png":
 {
-	"frame": {"x":371,"y":1131,"w":39,"h":42},
+	"frame": {"x":327,"y":1131,"w":39,"h":42},
 	"rotated": true,
 	"trimmed": true,
 	"spriteSourceSize": {"x":35,"y":23,"w":39,"h":42},
@@ -1106,7 +1106,7 @@
 },
 "p_ev_b_hair_k0_14.png":
 {
-	"frame": {"x":368,"y":1172,"w":39,"h":42},
+	"frame": {"x":371,"y":1131,"w":39,"h":42},
 	"rotated": true,
 	"trimmed": true,
 	"spriteSourceSize": {"x":35,"y":23,"w":39,"h":42},
@@ -1114,15 +1114,15 @@
 },
 "p_ev_b_hair_k0_15.png":
 {
-	"frame": {"x":424,"y":1036,"w":43,"h":40},
+	"frame": {"x":368,"y":1172,"w":39,"h":42},
 	"rotated": true,
 	"trimmed": true,
-	"spriteSourceSize": {"x":32,"y":23,"w":43,"h":40},
+	"spriteSourceSize": {"x":35,"y":23,"w":39,"h":42},
 	"sourceSize": {"w":110,"h":115}
 },
 "p_ev_b_hair_k0_16.png":
 {
-	"frame": {"x":429,"y":991,"w":43,"h":40},
+	"frame": {"x":424,"y":1036,"w":43,"h":40},
 	"rotated": true,
 	"trimmed": true,
 	"spriteSourceSize": {"x":32,"y":23,"w":43,"h":40},
@@ -1130,13 +1130,21 @@
 },
 "p_ev_b_hair_k0_17.png":
 {
+	"frame": {"x":429,"y":991,"w":43,"h":40},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":23,"w":43,"h":40},
+	"sourceSize": {"w":110,"h":115}
+},
+"p_ev_b_hair_k0_18.png":
+{
 	"frame": {"x":445,"y":927,"w":43,"h":40},
 	"rotated": false,
 	"trimmed": true,
 	"spriteSourceSize": {"x":32,"y":23,"w":43,"h":40},
 	"sourceSize": {"w":110,"h":115}
 },
-"p_ev_b_hair_k0_18.png":
+"p_ev_b_hair_k0_19.png":
 {
 	"frame": {"x":419,"y":609,"w":46,"h":41},
 	"rotated": false,
@@ -1144,7 +1152,7 @@
 	"spriteSourceSize": {"x":31,"y":23,"w":46,"h":41},
 	"sourceSize": {"w":110,"h":115}
 },
-"p_ev_b_hair_k0_19.png":
+"p_ev_b_hair_k0_20.png":
 {
 	"frame": {"x":369,"y":651,"w":46,"h":41},
 	"rotated": false,
@@ -1152,7 +1160,7 @@
 	"spriteSourceSize": {"x":31,"y":23,"w":46,"h":41},
 	"sourceSize": {"w":110,"h":115}
 },
-"p_ev_b_hair_k0_20.png":
+"p_ev_b_hair_k0_21.png":
 {
 	"frame": {"x":445,"y":882,"w":43,"h":43},
 	"rotated": false,
@@ -1567,7 +1575,7 @@
 	"p_as_b_head_k0": ["p_as_b_head_k0_0.png","p_as_b_head_k0_1.png","p_as_b_head_k0_2.png","p_as_b_head_k0_3.png","p_as_b_head_k0_4.png","p_as_b_head_k0_5.png"],
 	"p_as_b_head_k1": ["p_as_b_head_k1_0.png","p_as_b_head_k1_1.png","p_as_b_head_k1_2.png","p_as_b_head_k1_3.png","p_as_b_head_k1_4.png","p_as_b_head_k1_5.png"],
 	"p_ev_b_hair": ["p_ev_b_hair_0.png","p_ev_b_hair_1.png","p_ev_b_hair_2.png","p_ev_b_hair_3.png","p_ev_b_hair_4.png","p_ev_b_hair_5.png","p_ev_b_hair_6.png","p_ev_b_hair_7.png","p_ev_b_hair_8.png","p_ev_b_hair_9.png","p_ev_b_hair_10.png","p_ev_b_hair_11.png","p_ev_b_hair_12.png","p_ev_b_hair_13.png","p_ev_b_hair_14.png","p_ev_b_hair_15.png","p_ev_b_hair_16.png","p_ev_b_hair_17.png","p_ev_b_hair_18.png","p_ev_b_hair_19.png","p_ev_b_hair_20.png","p_ev_b_hair_21.png"],
-	"p_ev_b_hair_k0": ["p_ev_b_hair_k0_0.png","p_ev_b_hair_k0_1.png","p_ev_b_hair_k0_2.png","p_ev_b_hair_k0_3.png","p_ev_b_hair_k0_4.png","p_ev_b_hair_k0_5.png","p_ev_b_hair_k0_6.png","p_ev_b_hair_k0_7.png","p_ev_b_hair_k0_8.png","p_ev_b_hair_k0_9.png","p_ev_b_hair_k0_10.png","p_ev_b_hair_k0_11.png","p_ev_b_hair_k0_12.png","p_ev_b_hair_k0_13.png","p_ev_b_hair_k0_14.png","p_ev_b_hair_k0_15.png","p_ev_b_hair_k0_16.png","p_ev_b_hair_k0_17.png","p_ev_b_hair_k0_18.png","p_ev_b_hair_k0_19.png","p_ev_b_hair_k0_20.png"],
+	"p_ev_b_hair_k0": ["p_ev_b_hair_k0_0.png","p_ev_b_hair_k0_1.png","p_ev_b_hair_k0_2.png","p_ev_b_hair_k0_3.png","p_ev_b_hair_k0_4.png","p_ev_b_hair_k0_5.png","p_ev_b_hair_k0_6.png","p_ev_b_hair_k0_7.png","p_ev_b_hair_k0_8.png","p_ev_b_hair_k0_9.png","p_ev_b_hair_k0_10.png","p_ev_b_hair_k0_11.png","p_ev_b_hair_k0_12.png","p_ev_b_hair_k0_13.png","p_ev_b_hair_k0_14.png","p_ev_b_hair_k0_15.png","p_ev_b_hair_k0_16.png","p_ev_b_hair_k0_17.png","p_ev_b_hair_k0_18.png","p_ev_b_hair_k0_19.png","p_ev_b_hair_k0_20.png","p_ev_b_hair_k0_21.png"],
 	"p_ev_b_hair_k1": ["p_ev_b_hair_k1_0.png","p_ev_b_hair_k1_1.png","p_ev_b_hair_k1_2.png","p_ev_b_hair_k1_3.png","p_ev_b_hair_k1_4.png","p_ev_b_hair_k1_5.png","p_ev_b_hair_k1_6.png","p_ev_b_hair_k1_7.png","p_ev_b_hair_k1_8.png","p_ev_b_hair_k1_9.png","p_ev_b_hair_k1_10.png","p_ev_b_hair_k1_11.png","p_ev_b_hair_k1_12.png","p_ev_b_hair_k1_13.png","p_ev_b_hair_k1_14.png","p_ev_b_hair_k1_15.png","p_ev_b_hair_k1_16.png","p_ev_b_hair_k1_17.png","p_ev_b_hair_k1_18.png","p_ev_b_hair_k1_19.png","p_ev_b_hair_k1_20.png","p_ev_b_hair_k1_21.png"],
 	"p_ev_b_head": ["p_ev_b_head_0.png","p_ev_b_head_1.png","p_ev_b_head_2.png","p_ev_b_head_3.png","p_ev_b_head_4.png","p_ev_b_head_5.png","p_ev_b_head_6.png","p_ev_b_head_7.png","p_ev_b_head_8.png"],
 	"p_ev_b_head_k0": ["p_ev_b_head_k0_0.png","p_ev_b_head_k0_1.png","p_ev_b_head_k0_2.png","p_ev_b_head_k0_3.png","p_ev_b_head_k0_4.png","p_ev_b_head_k0_5.png","p_ev_b_head_k0_6.png","p_ev_b_head_k0_7.png","p_ev_b_head_k0_8.png"],
@@ -1580,6 +1588,6 @@
 	"format": "RGBA8888",
 	"size": {"w":490,"h":1220},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:f0c49aad40a42a692cd2cbd37cddca83:c41e21b623e14472f7715b8f7038eab7:c10e1431ad726ae333e6e40272907634$"
+	"smartupdate": "$TexturePacker:SmartUpdate:6cc6eedfc8a279741ff27b2e024011bd:9337f4e6886bbb92ccda024111888590:c10e1431ad726ae333e6e40272907634$"
 }
 }

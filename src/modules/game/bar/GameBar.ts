@@ -110,7 +110,10 @@ export default class GameBar extends Container {
         this._txtYour.text = (date.getFullYear() + 1100).toFixed();
         this._txtTime.text = `${date.getHours() < 10 ? '0' + date.getHours().toFixed() : date.getHours().toFixed()}:${date.getMinutes() < 10 ? '0' + date.getMinutes().toFixed() : date.getMinutes().toFixed()}`;
         this._txtMounth.text = this[`_mounths_${config.language}`][date.getMonth()];
-        gsapTimer( () => { this.update.bind(this) }, 1);
+        gsapTimer( () => {
+             this.update() 
+        
+        }, 1);
 
         
     }

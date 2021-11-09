@@ -44,8 +44,6 @@ function enableSwipeUp() {
   swipeUp(window.state.deviceDetector, initSwipeUp);
 }
 
-
-
 const loadApp = async () => {
   window.methods.orientation = new Orientation();
   window.methods.orientation.handleOrientation();
@@ -55,13 +53,9 @@ const loadApp = async () => {
     startApp();
   });
   
-  viewport.handleResize(config);
-
   function startApp() {
     optimization();
     initModules();
-    
-    
   }
 };
 loadApp();

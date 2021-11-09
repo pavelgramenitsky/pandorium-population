@@ -8,11 +8,11 @@ const config = {
   WIDTH_M_LANDSCAPE: 1920,
   HEIGHT_M_LANDSCAPE: 1080,
   // Mobile portrait
-  WIDTH_M_PORTRAIT: 1080,
-  HEIGHT_M_PORTRAIT: 1920,
+  WIDTH_M_PORTRAIT: 1920,
+  HEIGHT_M_PORTRAIT: 1080,
 
   // Enable portrait mode when the user is at the PC
-  portraitMode: false,
+  portraitMode: true,
   tints: [0x666666, 0xffffff],
   colors: ["#fff", "#fff"],
 
