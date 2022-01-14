@@ -4,7 +4,7 @@ export default class GameModel {
     levelMissing = [2, 2];
     levelGrid = [
         ['b', 'b', 'b', 'b', 'b', 'r', 'r', 'r'],
-        ['r', 'r', 'r', 'r', 'r', 'r', 'r', 'r'],
+        ['r', 'r', 'b', 'r', 'r', 'r', 'r', 'r'],
         ['r', 'r', 'r', 'r', 'r', 'r', 'r', 'r'],
         ['r', 'r', 'r', 'r', 'r', 'r', 'r', 'r'],
         ['r', 'r', 'r', 'r', 'r', 'r', 'r', 'r'],
